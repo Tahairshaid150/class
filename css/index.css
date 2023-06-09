@@ -1,0 +1,144 @@
+* { 
+    padding: 0%; 
+    margin: 0%; 
+} 
+body{ 
+    background-size: cover; 
+    background-image: url(https://morb3.com/wp-content/uploads/2020/09/101-desktop-pc-wallpapers-space-4k-hd-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%81%D8%B6%D8%A7%D8%A1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%84%D8%A7%D8%A8%D8%AA%D9%88%D8%A8-%D8%B5%D9%88%D8%B1-%D9%81%D8%B6%D8%A7%D8%A1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B3%D8%B7%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%A7%D8%B4%D8%A9.jpg); 
+} 
+header { 
+    background-color: pink; 
+    padding: 20px; 
+    text-align: center; 
+} 
+   
+.rama h1 { 
+    font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    color: white; 
+} 
+
+.menu { 
+    display: none; 
+    position: absolute; 
+    left: 0; 
+    top: 69px; 
+    background-color: pink; 
+    width: 14%; 
+    padding: 10px; 
+    animation-duration: 0.5s; 
+    animation-name: slideIn; 
+    animation-fill-mode: forwards; 
+} 
+ 
+@keyframes slideIn { 
+    from { 
+        opacity: 0; 
+        transform: translateX(-100%); 
+    } 
+    to { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+ 
+
+.menu ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    color: white; 
+    font-size: 23px; 
+    /* border: 2px #ff4081 solid; */ 
+} 
+
+.menu ul li { 
+    padding: 8px; 
+    border: 1px #ff4081 solid; 
+} 
+
+.menu ul li:hover { 
+    background-color: #ddd; 
+} 
+
+
+.ramaButton { 
+    background-color: #ff4081; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    float: left; 
+    margin: -31px 0px; 
+} 
+.ramaButton:hover { 
+    background-color: #ff1763; 
+} 
+#searchInput { 
+    width: 200px; 
+    height: 30px; 
+    margin: -34px 0px; 
+    padding: 5px; 
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    float: right; 
+
+} 
+ 
+#searchButton { 
+    background-color: #ff1763; 
+    border: none; 
+    color: white; 
+    padding: 9px 16px; 
+    margin: -34px 0px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    float: right; 
+} 
+.modal { 
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4); 
+} 
+ 
+.modal-content { 
+    background-color: pink; 
+    margin: 25% auto; 
+    padding: 29px; 
+    border: 5px solid #ff1763; 
+    width: 40%; 
+} 
+p#searchResultsText { 
+    font-size: 31px; 
+    color: #ff1763; 
+} 
+.close { 
+    color: #ff1763; 
+    float: right; 
+    font-size: 37px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    margin: -3px 0px; 
+} 
+ 
+.close:hover, 
+.close:focus { 
+    color: black; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+a.Rama {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #ff1763;
+    font-size: 40px;
+}

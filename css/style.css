@@ -1,0 +1,71 @@
+    
+    body { 
+        
+        background-image: url('../img/background.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      } 
+   
+      .container { 
+        background-color: rgba(0, 0, 0, 0.524); 
+        padding: 30px; 
+        border-radius: 10px; 
+      } 
+   
+      .btn-primary { 
+        background-color: #01579B; 
+        border-color: #01579B; 
+      } 
+   
+      .btn-primary:hover { 
+        background-color: #064785; 
+        border-color: #064785; 
+      } 
+   
+      .error { 
+        color: #FF5252; 
+      } 
+   
+      .container { 
+        margin-top: 100px; 
+      } 
+   
+      h2 { 
+        margin-bottom: 20px; 
+        color: #fff; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+      } 
+   
+      .form-group { 
+        margin-bottom: 20px; 
+      } 
+   
+      .btn-primary { 
+        margin-top: 10px; 
+      } 
+   
+      .error { 
+        color: red; 
+        margin-top: 10px; 
+      } 
+   
+      
+      .form-group input, 
+      .form-group label { 
+        transition: all 0.3s ease; 
+      } 
+   
+      .form-group input:focus, 
+      .form-group input:active { 
+        transform: scale(1.05); 
+      } 
+   
+      .btn-primary { 
+        transition: all 0.3s ease; 
+      } 
+   
+      .btn-primary:hover { 
+        transform: scale(1.05); 
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+      } 
